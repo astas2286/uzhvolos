@@ -1707,7 +1707,7 @@ body.ie ._ibg img {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  min-height: 160px;
+  min-height: 175px;
 }
 
 .card-profit__text {
@@ -2624,6 +2624,10 @@ body.ie ._ibg img {
   .red__subtitle {
     display: none;
   }
+
+  .map__image {
+    display: none;
+  }
 }
 
 @media (max-width: 549.98px) {
@@ -2692,5 +2696,11 @@ body.ie ._ibg img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-profit {
+    min-height: 195px;
   }
 }
